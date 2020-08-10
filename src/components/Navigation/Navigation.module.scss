@@ -1,0 +1,22 @@
+@import './../../variables/colors';
+
+.root{
+    .list{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        .bullet{
+            padding: 0 12px;
+            cursor: pointer;
+
+
+            .link{
+                text-decoration: none;
+                color: $black;
+            }
+            .active{
+                color: $blue;
+            }
+        }
+    }
+}
