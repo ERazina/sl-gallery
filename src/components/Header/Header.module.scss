@@ -1,0 +1,15 @@
+.root{
+    display: flex;
+    flex-direction: row;
+    width: calc(900px - 75px * 2);
+    align-items: center;
+    margin: auto;
+    padding: 0 75px;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+    .logo{
+        margin-right: 30px;
+    }
+}

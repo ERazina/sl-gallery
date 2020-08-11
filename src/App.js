@@ -9,6 +9,7 @@ import {
 import Info from './pages/Info/Info';
 import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
               <Info />
             </Route>
           </Switch>
+          <Footer />
     </div>
     </Router>
   );
