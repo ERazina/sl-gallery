@@ -1,0 +1,26 @@
+[
+    {        
+        "filename": "../images/racoon.png",
+        "name": "Racoon",
+        "discription": "Racoon is singing the song of the piece",
+        "width": 500,
+        "height": 500,
+        "weight": 100,
+        "price": 10000,
+        "currency": "$",
+        "material": "canvas",
+        "paint": "oil"
+    },
+    {
+        "filename": "../images/maditation.png",
+        "name": "Meditation",
+        "discription": "Meditation is ....",
+        "width": 500,
+        "height": 500,
+        "weight": 100,
+        "price": 10000,
+        "currency": "$",
+        "material": "canvas",
+        "paint": "oil"
+    }
+]
