@@ -13,12 +13,12 @@ function Footer() {
   return (
     <footer className={styles.root}>
         <div className={styles.linkWrapper}>
-            <a href="https://www.instagram.com/sl.fineart/"><img className={styles.footerlink} src={instagram} alt="Svetlana Lebedeva's instagram"></img></a>
-            <a href="https://www.facebook.com/Sl.Fineart85/"><img  className={styles.footerlink} src={facebook} alt="Svetlana Lebedeva's facebook"></img></a>
-            <a href="https://www.instagram.com/sl.fineart/"><img className={styles.footerlink}  src={watsapp} alt="Svetlana Lebedeva's watsapp"></img></a>
-            <a href="http://www.vk.com"><img src={vk} className={styles.footerlink}  alt="Svetlana Lebedeva's vkontakte russian social network"></img></a>
-            <a href="http://www.etsy.com"><img src={etsy} className={styles.footerlink}  alt="Svetlana Lebedeva's etsy art site"></img></a>
-            <a mailto="http://www.instagram.com"><img className={styles.footerlink}  src={email} alt="Svetlana Lebedeva email"></img></a>
+            <a href="https://www.instagram.com/sl.fineart/" target="_blank"><img className={styles.footerlink} src={instagram} alt="Svetlana Lebedeva's instagram"></img></a>
+            <a href="https://www.facebook.com/Sl.Fineart85/" target="_blank"><img  className={styles.footerlink} src={facebook} alt="Svetlana Lebedeva's facebook"></img></a>
+            <a href="https://wa.me/79045126424/?text=Type%20your%20message%20here" target="_blank"><img className={styles.footerlink}  src={watsapp} alt="write a message or call Svetlana Lebedeva by watsapp"></img></a>
+            <a href="https://vk.com/slebedeva8" target="_blank"><img src={vk} className={styles.footerlink}  alt="Svetlana Lebedeva's vkontakte profile - russian social network"></img></a>
+            <a href="https://www.etsy.com/people/SVento" target="_blank"><img src={etsy} className={styles.footerlink}  alt="watch all Svetlana Lebedeva's art works on etsy.com"></img></a>
+            <a href="mailto:s.vento85@gmail.com" target="_blank"><img className={styles.footerlink}  src={email} alt="email to Svetlana Lebedeva"></img></a>
         </div>
         <div>Developed by <a className={styles.link} href="http://www.erazina.info">Elina</a>, designed by <Link className={styles.link}>Sl•</Link></div>
         <div>St. Petersburg, 2020</div>
