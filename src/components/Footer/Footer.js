@@ -20,7 +20,7 @@ function Footer() {
             <a href="https://www.etsy.com/people/SVento" target="_blank"><img src={etsy} className={styles.footerlink}  alt="watch all Svetlana Lebedeva's art works on etsy.com"></img></a>
             <a href="mailto:s.vento85@gmail.com" target="_blank"><img className={styles.footerlink}  src={email} alt="email to Svetlana Lebedeva"></img></a>
         </div>
-        <div>Developed by <a className={styles.link} href="http://www.erazina.info">Elina</a>, designed by <Link className={styles.link}>Sl•</Link></div>
+        <div>Developed by <a className={styles.link} href="http://www.erazina.info">Elina</a>, designed by <Link to="/"className={styles.link}>Sl•</Link></div>
         <div>St. Petersburg, 2020</div>
     </footer>
   );
