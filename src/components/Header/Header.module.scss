@@ -1,3 +1,4 @@
+@import './../../variables/colors';
 .root{
     display: flex;
     flex-direction: row;
@@ -11,5 +12,13 @@
 
     .logo{
         margin-right: 30px;
+    }
+
+
+    .link{
+        text-decoration: none;
+    }
+    .link:visited{
+        color: $black;
     }
 }
