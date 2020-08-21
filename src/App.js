@@ -10,6 +10,7 @@ import Info from './pages/Info/Info';
 import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Paintings from './pages/Paintings/Paintings';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
               <Home />
             </Route>
             <Route path='/paintings'>
-              {/* //painting */}
+              <Paintings />
             </Route>
             <Route path='/contact'>
               <Contact />

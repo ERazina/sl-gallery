@@ -1,0 +1,21 @@
+@import './../../variables/sizes';
+@import './../../variables/colors';
+
+.root{
+
+    h2{
+        font-size: $h2;
+    }
+
+    .link{
+        display: block;
+        text-decoration: none;
+    }
+    .link:hover{
+        color: $blue;
+    }
+
+    .link:visited{
+        color: $black;
+    }
+}

@@ -1,0 +1,50 @@
+@import './../../variables/sizes';
+
+.root{
+
+    width: $width;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+    h2{
+        font-size: $h2;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+
+        .imageWrapper{
+            width: 220px;
+        }
+
+        .about_text{
+            margin-left: 37px;
+            justify-content: start;
+
+            p{
+                text-align: start;
+                font-size: 16px;
+                margin-top: 13px;
+                margin-bottom: 0;
+            }
+
+
+            p:first-child{
+                margin-top: 0;
+            }
+        }
+    }
+    .h3{
+        font-size: $h3;
+    }
+    .bottom_text{
+        margin-top: 22px;
+        margin-bottom: 0;
+    }
+    .bottom_text:first-child{
+        margin-top: 0;
+    }
+
+}

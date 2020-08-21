@@ -1,6 +1,6 @@
 [
     {        
-        "filename": "../images/racoon.png",
+        "filename": "racoon",
         "name": "Racoon",
         "discription": "Racoon is singing the song of the piece",
         "width": 500,
@@ -12,7 +12,7 @@
         "paint": "oil"
     },
     {
-        "filename": "../images/maditation.png",
+        "filename": "maditation.png",
         "name": "Meditation",
         "discription": "Meditation is ....",
         "width": 500,

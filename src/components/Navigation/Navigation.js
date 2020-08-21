@@ -7,15 +7,15 @@ function Navigation() {
     let menu = [
         {
         id: 1,
-        name: 'paintings',
+        name: 'Paintings',
         },
         {
         id: 2,
-        name: 'contact',
+        name: 'Contact',
         },
         {
         id:3, 
-        name: 'info',
+        name: 'Info',
         }
     ];
     

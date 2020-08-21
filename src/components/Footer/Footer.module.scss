@@ -8,6 +8,10 @@
     .footerlink{
         margin: 24px 22px 25px 22px;
     }
+    .footerlink:hover{
+        transform: scale(1.2);
+        transition: transform 1s cubic-bezier(0, 0, 0, 1);
+    }
 
     .link{
         color: $black;
