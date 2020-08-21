@@ -11,6 +11,7 @@ import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Paintings from './pages/Paintings/Paintings';
+import Card from './components/Card/Card';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <Route path='/info'>
               <Info />
+            </Route>
+            <Route path='/card'>
+              <Card />
             </Route>
           </Switch>
           <Footer />

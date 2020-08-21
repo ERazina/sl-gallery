@@ -1,0 +1,57 @@
+@import './../../variables/sizes';
+@import './../../variables/colors';
+
+.root{
+    width: $width;
+    margin: auto;
+
+    .image{
+        margin-bottom: 26px;
+    }
+    .h2{
+        font-size: $h2;
+    }
+    .card_info{
+        width: 556px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: auto;
+
+        .price{
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+            text-align: start;
+            font-size: 18px;
+
+            .details{
+                margin-bottom: 10px;
+            }
+            
+        }
+
+        .buy{
+            .link{
+                color: $blue;
+                font-size: 26px;
+                font-weight: bold;
+                -webkit-animation: mymove1 1s;
+                animation: mymove1 1s;
+
+            }
+            
+            @keyframes mymove1 {
+                100% {font-size: 26px;}
+            }
+            @keyframes mymove {
+                100% {font-size: 30px;}
+            }
+
+            .link:hover{
+                -webkit-animation: mymove 2s; /* Chrome, Safari, Opera */
+                animation: mymove 2s;
+            }
+        }
+    }
+}

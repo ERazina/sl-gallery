@@ -21,4 +21,9 @@
     .link:visited{
         color: $black;
     }
+
+    .wrapper{
+        display: flex;
+        width: calc(157px + 38px + 30px);
+    }
 }

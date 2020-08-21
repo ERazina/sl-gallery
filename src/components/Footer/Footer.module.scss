@@ -7,11 +7,8 @@
 
     .footerlink{
         margin: 24px 22px 25px 22px;
-        // -webkit-transform: scale(1.2); /* Safari and Chrome */
-    // -moz-transition: 2s ease; /* Firefox 4 */
-    // -o-transition: 2s ease; /* Opera */
-    transition: transform 1s cubic-bezier(0, 0, 0, 1);
-    transform: scale(1.0);
+        transition: transform 1s cubic-bezier(0, 0, 0, 1);
+        transform: scale(1.0);
     }
     .footerlink:hover{
         transform: scale(1.2);
