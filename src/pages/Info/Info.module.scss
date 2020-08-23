@@ -1,14 +1,35 @@
 @import './../../variables/sizes';
+@import './../../variables/colors';
 
 .root{
-
-    width: $width;
-    display: flex;
+    width: 900px;
+    // display: flex;
     margin: auto;
-    flex-direction: column;
+    flex-direction: row;
+    // padding: 0 77px;
+    position: relative;
+    background-color: $white-transparent;
+    // box-shadow: $materialShadow;
+
+    h2{
+        line-height: 1;
+    }
+
+
+    
+
+    .w1{
+        width: 1px;
+        background: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 900px;
+    }
 
     h2{
         font-size: $h2;
+        padding-bottom: 22px;
     }
 
     .wrapper{
@@ -21,11 +42,13 @@
 
         .about_text{
             margin-left: 37px;
+            margin-right: 73px;
             justify-content: start;
 
             p{
                 text-align: start;
                 font-size: 16px;
+                line-height: 22px;
                 margin-top: 13px;
                 margin-bottom: 0;
             }
@@ -38,13 +61,31 @@
     }
     .h3{
         font-size: $h3;
+        line-height: 27px;
     }
     .bottom_text{
         margin-top: 22px;
         margin-bottom: 0;
     }
-    .bottom_text:first-child{
-        margin-top: 0;
+    // .bottom_text:first-child{
+    //     margin-top: 0;
+    // }
+
+
+.textWrapper{
+    padding: 0 77px;
+
+}
+
+.lastP{
+    margin-bottom: 32px;
+}
+
+.bottomPWrapper{
+    padding: 0 4px;
+    p{
+        margin-top: 22px;
     }
+}
 
 }

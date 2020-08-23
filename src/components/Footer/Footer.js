@@ -23,7 +23,7 @@ function Footer() {
             <a href="mailto:s.vento85@gmail.com" target="_blank"><img className={styles.footerlink}  src={email} alt="email to Svetlana Lebedeva"></img></a>
         </div>
         <div>Developed by <a className={styles.link} href="http://www.erazina.info">Elina</a>, designed by <Link to="/"className={styles.link}>Sl•</Link></div>
-        <div>St. Petersburg, 2020</div>
+        <div className={styles.lastParagrath}>St. Petersburg, 2020</div>
     </footer>
   );
 }

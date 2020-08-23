@@ -18,7 +18,7 @@ function Card() {
                 <div>600$</div>
             </div>
             <div className={styles.buy}>
-                <Link to='/' className={styles.link}>I take it</Link>
+            <a href="https://wa.me/79045126424/?text=Type%20your%20message%20here" target="_blank" className={styles.link}>I take it</a>
             </div>
         </div>
     </div>
